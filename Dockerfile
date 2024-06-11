@@ -31,7 +31,7 @@ bash Miniconda3-py39_23.11.0-2-Linux-x86_64.sh -b -p ./miniconda3 ;\
 ./miniconda3/bin/conda install gunicorn flask flask_cors requests tqdm Biopython;\
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash ;\
 . ~/.bashrc; nvm install 20;\
-git clone https://github.com/NikolaiL-dev/web24hw.git ; mv web2024_hw/* . ; rm -r web2024_hw;\
+git clone https://github.com/NikolaiL-dev/web24hw.git ; mv web24hw/* . ; rm -r web24hw;\
 cd protein-database; npm install; npm run build; npm install -g serve;\
 mv ../nginx_conf/* /etc/nginx/sites-available/
 
@@ -43,4 +43,4 @@ ENV SERVE=/root/.nvm/versions/node/v20.14.0/bin/serve
 
 ENTRYPOINT mkdir public; ln -s /etc/nginx/sites-available/flaskApp /etc/nginx/sites-enabled/flaskApp ;\
 unlink /etc/nginx/sites-enabled/default; cd /project/flask-app; ../miniconda3/bin/conda run -n base gunicorn -b 0.0.0.0:5000 wsgi:app& \
-systemctl start nginx; ../miniconda3/bin/conda run -n base python init.py --size 100; $NODE $SERVE -s $REACTAPP; bash
+systemctl start nginx; ../miniconda3/bin/conda run -n base python init.py --size $SIZE; $NODE $SERVE -s $REACTAPP; bash
