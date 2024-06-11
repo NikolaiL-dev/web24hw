@@ -1,0 +1,224 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eff7fc8f;
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.App-header h1 {
+  margin: 0;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+
+.search-field {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.search-field select {
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+  background-color: #282c34;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease
+}
+.search-field select:hover{
+  background-color: #0056b3;
+}
+
+
+.search-field input {
+  width: 600px;
+  border-radius: 6px;
+  border: 0.5px solid #282c34;
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+}
+
+.search-field button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #282c34;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease
+}
+
+.search-field button:hover {
+  background-color: #0056b3;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.download-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #282c34;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+  background-color: #0056b3;
+}
+
+.back-button {
+  padding: 10px 20px;
+  margin-left: 20px;
+  font-size: 16px;
+  background-color: #282c34;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
+
+.buttons button {
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+  background-color: #282c34;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease
+}
+
+.buttons button:hover {
+  background-color: #0056b3;
+}
+
+.submitted-query {
+  margin-top: 20px;
+  text-align: left;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.submitted-query h3 {
+  margin-bottom: 10px;
+}
+
+.submitted-query pre {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: left;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.results {
+  margin-top: 20px;
+  max-width: 800px;
+  width: 100%;
+}
+
+.card {
+  background-color: #f7fafc;
+  border: 2px solid #282c34;
+  width: 100%;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
+  text-align: left;
+}
+
+.link {
+  display: inline-block;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #282c34;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease
+}
+
+.link:hover {
+  background-color: #0056b3;
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+footer {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+footer p {
+  margin: 0 0 10px 0;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer ul li {
+  margin: 5px 0;
+}
+

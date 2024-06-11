@@ -1,0 +1,7 @@
+server {
+	listen 80;
+	server_name serveServer;
+	location / {
+		include proxy_params;
+		proxy_pass http://localhost:3000;}
+	}

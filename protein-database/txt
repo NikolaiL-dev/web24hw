@@ -1,0 +1,209 @@
+{
+  "_shards": {
+    "failed": 0,
+    "skipped": 0,
+    "successful": 1,
+    "total": 1
+  },
+  "hits": {
+    "hits": [
+      {
+        "_id": "NP_000005",
+        "_index": "proteome",
+        "_score": 7.530809,
+        "_source": {
+          "PubMedID": [
+            "23846698",
+            "23786280",
+            "23643808",
+            "23721263",
+            "23535567",
+            "14760718",
+            "12754519",
+            "12631277",
+            "9344465",
+            "1281457",
+            "1374237",
+            "1370808",
+            "89758",
+            "59727"
+          ],
+          "authors": [
+            "Huang ML, Austin CJ, Sari MA, Rahmanto YS, Ponka P, Vyoral D and Richardson DR.",
+            "Choi GS, Kim JH, Shin YS, Ye YM, Kim SH and Park HS.",
+            "Tenorio-Laranga J, Peltonen I, Keskitalo S, Duran-Torres G, Natarajan R, Mannisto PT, Nurmi A, Vartiainen N, Airas L, Elovaara I and Garcia-Horsman JA.",
+            "Misra UK, Payne S and Pizzo SV.",
+            "Takada T, Kodera Y, Matsubara M, Kawashima Y, Maeda T, Fujita Y and Shichiri M.",
+            "Bunkenborg,J., Pilch,B.J., Podtelejnikov,A.V. and Wisniewski,J.R.",
+            "Zhang,H., Li,X.J., Martin,D.B. and Aebersold,R.",
+            "Shibata,M., Sakai,H., Sakai,E., Okamoto,K., Nishishita,K., Yasuda,Y., Kato,Y. and Yamamoto,K.",
+            "Arbelaez,L.F., Bergmann,U., Tuuttila,A., Shanbhag,V.P. and Stigbrand,T.",
+            "Borth W.",
+            "Matthijs G, Devriendt K, Cassiman JJ, Van den Berghe H and Marynen P.",
+            "Poller W, Faber JP, Klobeck G and Olek K.",
+            "Nartikova,V.F. and Paskhina,T.S.",
+            "Nachman,R.L. and Harpel,P.C."
+          ],
+          "chromosome": [
+            "12"
+          ],
+          "description": "alpha-2-macroglobulin precursor [Homo sapiens]",
+          "gene_names": [
+            "A2M",
+            "A2MD; CPAMD5; FWP007; S863-7"
+          ],
+          "id": "NP_000005",
+          "organism": "Homo sapiens",
+          "path2file": "/home/nikolay/workspace_ssd/HSE/web/public/human/NP_000005.gpff",
+          "protein_names": [
+            "alpha-2-macroglobulin",
+            "alpha-2-macroglobulin precursor",
+            "alpha-2-M; C3 and PZP-like alpha-2-macroglobulin domain-containing protein 5"
+          ],
+          "regions": [
+            "Inhibitory",
+            "Bait region"
+          ],
+          "sites": [
+            "modified",
+            "glycosylation"
+          ],
+          "taxonomy": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Mammalia",
+            "Eutheria",
+            "Euarchontoglires",
+            "Primates",
+            "Haplorrhini",
+            "Catarrhini",
+            "Hominidae",
+            "Homo"
+          ],
+          "titles": [
+            "Hepcidin bound to alpha2-macroglobulin reduces ferroportin-1 expression and enhances its activity at reducing serum iron levels",
+            "Eosinophil activation and novel mediators in the aspirin-induced nasal response in AERD",
+            "Alteration of prolyl oligopeptidase and activated alpha-2-macroglobulin in multiple sclerosis subtypes and in the clinically isolated syndrome",
+            "The monomeric receptor binding domain of tetrameric alpha2-macroglobulin binds to cell surface GRP78 triggering equivalent activation of signaling cascades",
+            "Serum monomeric alpha2-macroglobulin as a clinical biomarker in diabetes",
+            "Screening for N-glycosylated proteins by liquid chromatography mass spectrometry",
+            "Identification and quantification of N-linked glycoproteins using hydrazide chemistry, stable isotope labeling and mass spectrometry",
+            "Disruption of structural and functional integrity of alpha 2-macroglobulin by cathepsin E",
+            "Interaction of matrix metalloproteinases-2 and -9 with pregnancy zone protein and alpha2-macroglobulin",
+            "Alpha 2-macroglobulin, a multifunctional binding protein with targeting characteristics",
+            "Structure of the human alpha-2 macroglobulin gene and its promotor",
+            "Cloning of the human alpha 2-macroglobulin gene and detection of mutations in two functional domains: the bait region and the thiolester site",
+            "[Uniform method for determining the alpha 1-antitrypsin and alpha 2-macroglobulin activity in human blood serum (plasma)]",
+            "Platelet alpha2-macroglobulin and alpha1-antitrypsin"
+          ]
+        }
+      },
+      {
+        "_id": "NP_000055",
+        "_ignored": [
+          "protein_names.keyword",
+          "authors.keyword"
+        ],
+        "_index": "proteome",
+        "_score": 3.019124,
+        "_source": {
+          "PubMedID": [
+            "24516199",
+            "24287422",
+            "24239583",
+            "24367091",
+            "24097068",
+            "14760718",
+            "8416818",
+            "20301541",
+            "1861080",
+            "162484",
+            "695691",
+            "279011",
+            "1238393"
+          ],
+          "authors": [
+            "Skjeflo EW, Christiansen D, Espevik T, Nielsen EW and Mollnes TE.",
+            "van Vuuren BJ, Bergseth G, Mollnes TE and Shaw AM.",
+            "Sarkar E, Roberts EG, Wallage MJ, Unsworth DJ and Lock RJ.",
+            "Del Tordello E, Vacca I, Ram S, Rappuoli R and Serruto D.",
+            "Willer CJ, Schmidt EM, Sengupta S, Peloso GM, Gustafsson S, Kanoni S, Ganna A, Chen J, Buchkovich ML, Mora S, Beckmann JS, Bragg-Gresham JL, Chang HY, Demirkan A, Den Hertog HM, Do R, Donnelly LA, Ehret GB, Esko T, Feitosa MF, Ferreira T, Fischer K, Fontanillas P, Fraser RM, Freitag DF, Gurdasani D, Heikkila K, Hypponen E, Isaacs A, Jackson AU, Johansson A, Johnson T, Kaakinen M, Kettunen J, Kleber ME, Li X, Luan J, Lyytikainen LP, Magnusson PK, Mangino M, Mihailov E, Montasser ME, Muller-Nurasyid M, Nolte IM, O'Connell JR, Palmer CD, Perola M, Petersen AK, Sanna S, Saxena R, Service SK, Shah S, Shungin D, Sidore C, Song C, Strawbridge RJ, Surakka I, Tanaka T, Teslovich TM, Thorleifsson G, Van den Herik EG, Voight BF, Volcik KA, Waite LL, Wong A, Wu Y, Zhang W, Absher D, Asiki G, Barroso I, Been LF, Bolton JL, Bonnycastle LL, Brambilla P, Burnett MS, Cesana G, Dimitriou M, Doney AS, Doring A, Elliott P, Epstein SE, Eyjolfsson GI, Gigante B, Goodarzi MO, Grallert H, Gravito ML, Groves CJ, Hallmans G, Hartikainen AL, Hayward C, Hernandez D, Hicks AA, Holm H, Hung YJ, Illig T, Jones MR, Kaleebu P, Kastelein JJ, Khaw KT, Kim E, Klopp N, Komulainen P, Kumari M, Langenberg C, Lehtimaki T, Lin SY, Lindstrom J, Loos RJ, Mach F, McArdle WL, Meisinger C, Mitchell BD, Muller G, Nagaraja R, Narisu N, Nieminen TV, Nsubuga RN, Olafsson I, Ong KK, Palotie A, Papamarkou T, Pomilla C, Pouta A, Rader DJ, Reilly MP, Ridker PM, Rivadeneira F, Rudan I, Ruokonen A, Samani N, Scharnagl H, Seeley J, Silander K, Stancakova A, Stirrups K, Swift AJ, Tiret L, Uitterlinden AG, van Pelt LJ, Vedantam S, Wainwright N, Wijmenga C, Wild SH, Willemsen G, Wilsgaard T, Wilson JF, Young EH, Zhao JH, Adair LS, Arveiler D, Assimes TL, Bandinelli S, Bennett F, Bochud M, Boehm BO, Boomsma DI, Borecki IB, Bornstein SR, Bovet P, Burnier M, Campbell H, Chakravarti A, Chambers JC, Chen YD, Collins FS, Cooper RS, Danesh J, Dedoussis G, de Faire U, Feranil AB, Ferrieres J, Ferrucci L, Freimer NB, Gieger C, Groop LC, Gudnason V, Gyllensten U, Hamsten A, Harris TB, Hingorani A, Hirschhorn JN, Hofman A, Hovingh GK, Hsiung CA, Humphries SE, Hunt SC, Hveem K, Iribarren C, Jarvelin MR, Jula A, Kahonen M, Kaprio J, Kesaniemi A, Kivimaki M, Kooner JS, Koudstaal PJ, Krauss RM, Kuh D, Kuusisto J, Kyvik KO, Laakso M, Lakka TA, Lind L, Lindgren CM, Martin NG, Marz W, McCarthy MI, McKenzie CA, Meneton P, Metspalu A, Moilanen L, Morris AD, Munroe PB, Njolstad I, Pedersen NL, Power C, Pramstaller PP, Price JF, Psaty BM, Quertermous T, Rauramaa R, Saleheen D, Salomaa V, Sanghera DK, Saramies J, Schwarz PE, Sheu WH, Shuldiner AR, Siegbahn A, Spector TD, Stefansson K, Strachan DP, Tayo BO, Tremoli E, Tuomilehto J, Uusitupa M, van Duijn CM, Vollenweider P, Wallentin L, Wareham NJ, Whitfield JB, Wolffenbuttel BH, Ordovas JM, Boerwinkle E, Palmer CN, Thorsteinsdottir U, Chasman DI, Rotter JI, Franks PW, Ripatti S, Cupples LA, Sandhu MS, Rich SS, Boehnke M, Deloukas P, Kathiresan S, Mohlke KL, Ingelsson E and Abecasis GR.",
+            "Bunkenborg,J., Pilch,B.J., Podtelejnikov,A.V. and Wisniewski,J.R.",
+            "Dolmer,K. and Sottrup-Jensen,L.",
+            "Noris,M., Bresin,E., Mele,C. and Remuzzi,G.",
+            "Maison,C.M., Villiers,C.L. and Colomb,M.G.",
+            "Fearon,D.T.",
+            "Renwick,A.G. and Williams,R.T.",
+            "Schreiber,R.D., Pangburn,M.K., Lesavre,P.H. and Muller-Eberhard,H.J.",
+            "Hugli,T.E."
+          ],
+          "chromosome": [
+            "19"
+          ],
+          "description": "complement C3 precursor [Homo sapiens]",
+          "gene_names": [
+            "C3",
+            "AHUS5; ARMD9; ASP; C3a; C3b; CPAMD1; HEL-S-62p"
+          ],
+          "id": "NP_000055",
+          "organism": "Homo sapiens",
+          "path2file": "/home/nikolay/workspace_ssd/HSE/web/public/human/NP_000055.gpff",
+          "protein_names": [
+            "acylation-stimulating protein cleavage product; complement C3; complement component C3; prepro-C3; C3a anaphylatoxin; complement component C3a; complement component C3b; epididymis secretory sperm binding protein Li 62p; C3 and PZP-like alpha-2-macroglobulin domain-containing protein 1",
+            "complement C3 precursor"
+          ],
+          "regions": [
+            "Properdin-binding"
+          ],
+          "sites": [
+            "modified",
+            "cleavage",
+            "glycosylation"
+          ],
+          "taxonomy": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Mammalia",
+            "Eutheria",
+            "Euarchontoglires",
+            "Primates",
+            "Haplorrhini",
+            "Catarrhini",
+            "Hominidae",
+            "Homo"
+          ],
+          "titles": [
+            "Combined inhibition of complement and CD14 efficiently attenuated the inflammatory response induced by Staphylococcus aureus in a human whole blood model",
+            "Electroluminescent TCC, C3dg and fB/Bb epitope assays for profiling complement cascade activation in vitro using an activated complement serum calibration standard",
+            "A simple immunofixation test for induced C3 degradation in disease states (including C3 nephritic factor) and its correlation with kidney biopsy",
+            "Neisseria meningitidis NalP cleaves human complement C3, facilitating degradation of C3b and survival in human serum",
+            "Discovery and refinement of loci associated with lipid levels",
+            "Screening for N-glycosylated proteins by liquid chromatography mass spectrometry",
+            "Disulfide bridges in human complement component C3b",
+            "Atypical Hemolytic-Uremic Syndrome",
+            "Proteolysis of C3 on U937 cell plasma membranes. Purification of cathepsin G",
+            "Activation of the alternative complement pathway",
+            "The fate of saccharin impurities: the excretion and metabolism of [3-14C]Benz[d]-isothiazoline-1,1-dioxide (BIT) in man and rat",
+            "Initiation of the alternative pathway of complement: recognition of activators by bound C3b and assembly of the entire pathway from six isolated proteins",
+            "Human anaphylatoxin (C3a) from the third component of complement. Primary structure"
+          ]
+        }
+      }
+    ],
+    "max_score": 7.530809,
+    "total": {
+      "relation": "eq",
+      "value": 2
+    }
+  },
+  "timed_out": false,
+  "took": 1
+}
