@@ -31,7 +31,7 @@ bash Miniconda3-py39_23.11.0-2-Linux-x86_64.sh -b -p ./miniconda3 ;\
 ./miniconda3/bin/conda install gunicorn flask flask_cors requests tqdm Biopython;\
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash ;\
 . ~/.bashrc; nvm install 20;\
-git clone https://github.com/NikolaiL-dev/web2024_hw.git ; mv web2024_hw/* . ; rm -r web2024_hw;\
+git clone https://github.com/NikolaiL-dev/web24hw.git ; mv web2024_hw/* . ; rm -r web2024_hw;\
 cd protein-database; npm install; npm run build; npm install -g serve;\
 mv ../nginx_conf/* /etc/nginx/sites-available/
 
