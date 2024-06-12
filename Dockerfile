@@ -41,6 +41,8 @@ ENV NODE=/root/.nvm/versions/node/v20.14.0/bin/node
 ENV SERVE=/root/.nvm/versions/node/v20.14.0/bin/serve
 
 
-ENTRYPOINT mkdir public; ln -s /etc/nginx/sites-available/flaskApp /etc/nginx/sites-enabled/flaskApp ;\
-unlink /etc/nginx/sites-enabled/default; cd /project/flask-app; ../miniconda3/bin/conda run -n base gunicorn -b 0.0.0.0:5000 wsgi:app& \
-systemctl start nginx; ../miniconda3/bin/conda run -n base python init.py --size $SIZE; $NODE $SERVE -s $REACTAPP; bash
+ENTRYPOINT mkdir public; ln -s /etc/nginx/sites-available/flaskApp /etc/nginx/sites-enabled/flaskApp ; \
+unlink /etc/nginx/sites-enabled/default; cd /project/flask-app; systemctl start nginx; \
+../miniconda3/bin/conda run -n base python init.py --size $SIZE; \
+../miniconda3/bin/conda run -n base gunicorn -b 0.0.0.0:5000 wsgi:app& \
+$NODE $SERVE -s $REACTAPP; bash
