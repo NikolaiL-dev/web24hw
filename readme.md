@@ -15,11 +15,11 @@ sudo docker run --name es01 -p 9200:9200 -e "ELASTIC_PASSWORD=$ESP" -d --rm -m 8
 ```
 Copy user password and certificate file to some folder:
 ```
-mkdir ~/metadataES
 PATH2METADATA=~/metadataES
+mkdir $PATH2METADATA
 sudo docker cp es01:/usr/share/elasticsearch/config/certs/http_ca.crt $PATH2METADATA
 sudo chmod 744 $PATH2METADATA/http_ca.crt
-echo "$ESP" > ~/metadataES/password
+echo "$ESP" > $PATH2METADATA/password
 ```
 You can check connection with ES using this command:
 ```
