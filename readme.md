@@ -23,7 +23,7 @@ echo "$ESP" > ~/metadataES/password
 ```
 You can check connection with ES using this command:
 ```
-curl --cacert http_ca.crt -u elastic:$ESP https:/localhost:9200
+curl --cacert $PATH2METADATA/http_ca.crt -u elastic:$ESP https:/localhost:9200
 ```
 ```
 output:
@@ -59,8 +59,10 @@ The specified value (=500) means that 500 records for 5 different
 organisms will be presented in the database (total 500 * 5 = 2500 records).
 ```
 sudo docker build . --tag hw_lebedev:react
-sudo docker run --volume $PATH2METADATA/:/project/metadataES --env SIZE=500 --name hw_l --net host -it --rm hw_lebedev:react
+sudo docker run --volume $PATH2METADATA/:/project/metadataES --env SIZE=500 --name hw_l --net host -d --rm hw_lebedev:react
 ```
+**Please wait a few minutes (~3)! When the container is launched, the database and
+index are created, nothing will work until this process is over.**
 
 ## 3. Connecting to the database site
 * enter `localhost` in web browser
